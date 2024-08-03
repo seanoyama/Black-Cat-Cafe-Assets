@@ -1564,7 +1564,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2316,6 +2316,22 @@ PrefabInstance:
     - target: {fileID: 9132424266073444794, guid: ea1d04f55a414c24fab966e3bc6a8b79, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393587233456788172, guid: 5e64afedd24b6034f9349ba0644af476, type: 3}
+      propertyPath: my_id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703223208888525928, guid: 5e64afedd24b6034f9349ba0644af476, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4407229958005076314}
+    - target: {fileID: 7703223208888525928, guid: 5e64afedd24b6034f9349ba0644af476, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: setCatID
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703223208888525928, guid: 5e64afedd24b6034f9349ba0644af476, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8412996999356102989, guid: 5e64afedd24b6034f9349ba0644af476, type: 3}
       propertyPath: m_LocalPosition.y
